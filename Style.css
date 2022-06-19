@@ -1,0 +1,228 @@
+body
+{
+    width: 375px;
+    height: 812px;
+    background-color:#000000;
+    
+    /* color: cadetblue; */
+}
+
+.Mother
+{
+    background-color: #145DA0;
+    
+}
+
+.body_margin
+{
+    margin: 20px;
+    
+}
+
+body .header
+{
+    font-family: Quando;
+    font-size: 20px;
+    letter-spacing: 3.5%;
+    padding-top:15px ;
+}
+
+.Intro
+{
+    font-family: Quicksand;
+    font-size: 15px;
+    letter-spacing:mixed;
+    color: #B1D4E0;
+}
+
+.img
+{
+    border: none;
+    border: 1px;
+}
+
+.main_images_box1
+{
+    display: flex;
+    /* margin-bottom: 10px; */
+    justify-content: space-between;
+    
+}
+
+.main_images_box2
+{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.image_box1
+{
+    width:335px;
+    height: 206px;
+    border-radius: 10px;
+    padding-top: 10px;
+
+}   
+
+.img1
+{
+    width:335px;
+    height: 206px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.image_box2
+{
+    width: 193px;
+    height: 112px;
+    border-radius: 9px;
+}   
+.img2
+{
+    width: 193px;
+    height: 112px;
+    border-radius: 9px;
+    border: 1px;
+
+}
+
+.image_box3
+{
+    width: 100px;
+    height: 156px;
+    border-radius: 8px;
+}
+.img3
+{
+    width: 100px;
+    height: 156px;
+    border-radius: 8px;
+    border: 1px;
+}   
+
+.image_box4
+{
+    width:122px;
+    height: 100px;
+    border-radius: 8px;
+}   
+.img4
+{
+    width:122px;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px;
+}
+.image_box5
+{
+    width:153px;
+    height: 100px;
+    border-radius: 8px;
+}   
+.img5
+{
+    width:153px;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px;
+}
+
+:hover .img5
+{
+    transform: translateY(-30px);
+    transition: 1s;
+}
+
+:hover .img4
+{
+    transform: translateX(+30px); 
+    transition: 1s;
+}
+
+:hover .img3
+{
+    transform: translateY(10px);
+    transform: translateX(-20px);  
+    transition: 1.2s;
+}
+
+:hover .img2
+{
+    transform: translateY(20px);
+    transition: 1s;
+}
+
+.Order_buttom
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 58px;
+    height: 23px;
+    border: 10px;
+    border-radius: 25px;
+    font-size: 8.5px;
+    font-weight: bold;
+    font-family:Quicksand ;
+    letter-spacing:3.5%;
+    text-align: center;
+    background-color: #2E8BC0;
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+    
+}
+ 
+.align_item
+{
+    align-items: flex-end;
+    margin-left:277px ;
+
+}
+
+.Browse_buttom
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 58px;
+    height: 23px;
+    border: 10px;
+    border-radius: 25px;
+    font-size: 8.5px;
+    font-weight: bold;
+    font-family:Quicksand ;
+    letter-spacing:3.5%;
+    text-align: center;
+    background-color: #2E8BC0;
+    color: rgb(255, 255, 255);
+}
+ 
+.align_item
+{
+    align-items: flex-end;
+    margin-left:277px ;
+
+}
+
+span
+{
+    text-align: center;
+    padding-top: 30px;
+    color: #B1D4E0;
+}
+
+.Paragraph
+{
+    margin-bottom: 10px;
+}
+
+.decoration
+{
+    text-decoration: none;
+}
+
+button:hover
+{
+    transition: 2s;
+    transform:translateY(-5px);
+}
